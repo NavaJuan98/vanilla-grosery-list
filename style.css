@@ -1,0 +1,100 @@
+body {
+    background-color: #1B2631;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline-block;
+    padding: 4em;
+}
+
+h1 {
+    display: inline;
+    font-size: 2rem;
+}
+
+h2 {
+    display: inline;
+    font-size: 1.2rem;
+}
+
+main {
+    display: block;
+    width: 100vh;
+    margin: auto;
+}
+
+nav {
+    margin-bottom: 3em;
+}
+
+
+input[type=text] {
+    border: none;
+    /* border: black .1em; */
+    font-size: .9rem;
+    margin: .2em;
+    padding: .8em;
+    width: 70%;
+}
+
+nav input[type=submit] {
+    border: black .1em;
+    background-color: #5D6D7E;
+    color: #FFFFFF;
+    font-size: .9rem;
+    font-weight: bolder;
+    margin: .4em;
+    padding: .6em;
+    width: 15%;
+}
+
+input[type=text]:focus {
+    border: none;
+    font-size: .9rem;
+    margin: .2em;
+    padding: .8em;
+    width: 70%;
+}
+
+.item-div {
+    display: inline-block;
+    margin: 1em auto;
+    padding: 1em;
+    width: 80vh;
+
+}
+
+.item-descrip {
+    margin: 4em;
+    width: 75%;
+    display: inline;
+    max-height: .2em;
+
+}
+
+.item-div button {
+    float: right;
+}
+
+.item-div .checkButton {
+    background-color: #148F77;
+    color: #FFFFFF;
+    margin: .1em;
+    padding: .5em;
+    width: 10%;
+
+}
+
+.item-div .deleteButton {
+    background-color: #CB4335;
+    color: #FFFFFF;
+    margin: .1em;
+    padding: .5em;
+    width: 10%;
+}
